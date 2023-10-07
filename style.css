@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    margin-top: 20px;
+}
+.icon-box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 243px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    
+}
+.icon i{
+    color: #f69165;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.icon h4 {
+    font-size: 16px;
+}
+.icon a{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 14px;
+
+}
+main{
+    background: #00cce1;
+}
+nav.navbar.navbar-expand-lg {
+    padding: 0;
+}
+main ul li {
+    margin-right: 28px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+a.nav-link {
+    color: white;
+}
+a.nav-link:hover {
+    color: white;
+}
+.app {
+    color: white;
+    clip-path: polygon(10% 0, 100% 0%, 90% 99%, 0% 100%);
+    background: #f69165;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.app a{
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    
+}
+.banner{
+    background-image: url(./pic/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77.5vh;
+}
+.banner .index h4 {
+    color: white;
+    background: #00cce1;
+    padding: 7px 20px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 130px;
+}
+.banner .index h3{
+    color: white;
+    background: #f69165;
+     text-transform: uppercase;
+    padding: 7px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.banner p{
+    padding: 7px 0 20px;
+    color: #636363;
+}
+.banner  .learn{
+    text-decoration: none;
+    color: white;
+    background: #f69165;
+    padding: 8px 20px;
+    display: inline-block;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: 1px solid #f69165;
+    transition: .5s;
+}
+.banner  .learn:hover{
+    background: transparent;
+    color: #f69165;
+    border: 1px solid #f69165;
+
+}
+.banner  .book{
+    text-decoration: none;
+    color: white;
+    background: #00cce1;
+    padding: 8px 20px;
+    display: inline-block;
+    font-weight: 500;
+    margin-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .5s;
+    border: 1px solid #00cce1;
+
+}
+.banner  .book:hover{
+    background: transparent;
+    color: #00cce1;
+    border: 1px solid #00cce1;
+   
+
+}
+.banner .index2 h4 {
+    color: #00cce1;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 130px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.banner .index2 h3{
+    color:#f69165;
+     text-transform: uppercase;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 60px;
+    font-weight: 600;
+}
